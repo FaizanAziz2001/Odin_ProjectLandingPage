@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height:100%;
+    font-family:'Roboto';
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header #logo{
+    font-size: 24px;
+}
+
+.header a{
+    text-decoration: none;
+    color:#F9FAF8;
+    margin: 10px;
+}
+
+
+.container-1{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+}
+.container-1 img{
+    height: auto;
+    width: 500px;
+}
+
+.container-1 h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.container-1 p{
+    color:#E5E7EB;
+    font-size: 18px;
+    max-width:400px;
+}
+
+.container-1 .innercontainer-1
+{
+    position: relative;
+    margin: 0 4% 0 4%;
+}
+.container-1 button{
+    padding: 5px 30px 5px 30px ;
+    position: absolute;
+    bottom: 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container-2{
+    padding: 20px 50px 100px 50px;
+}
+.container-2 h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: #1F2937;
+}
+.container-2 .innercontainer-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-2 .info{
+    max-width: 300px;
+}
+
+.container-2 .info p{
+    margin: 0 1px 0 1px;
+}
+
+.container-3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: auto;
+}
+
+.container-3 .innercontainer-3{
+    margin: 0 20% 0 20%;
+}
+.container-3 #quote{
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    max-width: inherit;
+
+}
+
+.container-3 #ref{
+    text-align: end;
+}
+
+.container-4 {
+    height: 300px;
+}
+.container-4 .innercontainer-4{
+    display: flex;
+
+}
