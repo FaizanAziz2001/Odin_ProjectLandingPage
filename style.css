@@ -5,6 +5,7 @@
 
 body{
     height:100%;
+    max-width: 1920px;
     font-family:'Roboto';
 }
 
@@ -123,8 +124,35 @@ img{
 
 .container-4 {
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container-4 .innercontainer-4{
+    height: 40%;
+    width: 50%;
     display: flex;
+    background-color:#3882F6 ;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
 
+}
+
+.container-4 button{
+    padding: 5px 30px 5px 30px ;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    background-color:#3882F6  ;
+    color: #E5E7EB;
+}
+.container-4 h4,.container-4 p{
+    color: #E5E7EB;
+}
+
+.footer{
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
+    background-color: #1F2937;
 }
