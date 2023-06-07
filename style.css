@@ -8,6 +8,10 @@ body{
     font-family:'Roboto';
 }
 
+
+button:hover{
+    box-shadow: 0 0 10px black;
+}
 .header{
     display: flex;
     background-color: #1F2937;
@@ -50,6 +54,7 @@ body{
     color:#E5E7EB;
     font-size: 18px;
     max-width:400px;
+ 
 }
 
 .container-1 .innercontainer-1
@@ -70,6 +75,7 @@ img{
     height: 200px;
     width: 300px;
     border-radius: 10px;
+  
 }
 
 .container-2{
@@ -93,8 +99,17 @@ img{
     max-width: 300px;
 }
 
+
+.container-2 img{
+    transition: 0.3s;
+}
+
+.container-2 img:hover{
+    opacity: 0.8;
+    
+}
 .container-2 .info p{
-    margin: 0 1px 0 1px;
+    text-align: center;
 }
 
 .container-3{
